@@ -13,6 +13,9 @@ let decimales: number = 3.14; // decimal numbers (not different from enteros in 
 let texto: string = "Apraghatyus"; // text
 let booleano: boolean = true; // true or false
 let nulo: null = null; // null value
+let array: number[] = [1, 2, 3, 4, 5]; // array of numbers
+let tupla: [string, number] = ["Apraghatyus", 10]; // tuple, an array with fixed number of elements and types
+let any: any = "This can be any type"; // any type, can be assigned any value
 
 // we can found more varibles in typescript some of them are:
 let indefinido: undefined = undefined; // undefined value
