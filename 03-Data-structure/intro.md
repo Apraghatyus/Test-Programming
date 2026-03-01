@@ -1,15 +1,15 @@
 /*
- * EJERCICIO:
- * - Muestra ejemplos de creación de todas las estructuras soportadas por defecto en tu lenguaje.
- * - Utiliza operaciones de inserción, borrado, actualización y ordenación.
+ * EXERCISE:
+ * - Show examples of creating all the data structures supported by default in your language.
+ * - Use insertion, deletion, update, and sorting operations.
  *
- * DIFICULTAD EXTRA (opcional):
- * Crea una agenda de contactos por terminal.
- * - Debes implementar funcionalidades de búsqueda, inserción, actualización y eliminación de contactos.
- * - Cada contacto debe tener un nombre y un número de teléfono.
- * - El programa solicita en primer lugar cuál es la operación que se quiere realizar, y a continuación
- *   los datos necesarios para llevarla a cabo.
- * - El programa no puede dejar introducir números de teléfono no numéricos y con más de 11 dígitos.
- *   (o el número de dígitos que quieras)
- * - También se debe proponer una operación de finalización del programa.
+ * EXTRA DIFFICULTY (optional):
+ * Create a contact manager (phonebook) in the terminal.
+ * - You must implement search, insertion, update, and deletion functionalities.
+ * - Each contact must have a name and a phone number.
+ * - The program should first ask which operation the user wants to perform,
+ *   and then request the necessary data to carry it out.
+ * - The program must not allow non-numeric phone numbers
+ *   or phone numbers longer than 11 digits (or the number of digits you choose).
+ * - There must also be an option to terminate the program.
  */
