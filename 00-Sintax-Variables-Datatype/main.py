@@ -16,8 +16,6 @@ flotantes: float = 3.14 # Decimals numbers. For example: 3.14, -0.001, 2.0.
 texto: str = "Apraghatyus" # Strings. For example: "Hello", 'Python', "123".
 booleano: bool = True # True or False
 Nada = None # Null value.
-array: list[int] = [1, 2, 3, 4, 5] # Lists.
-tupla: tuple[int, str] = (1, "a") # Tuples.
 
 # Unique data types in python:
 complejos: complex = 1 + 2j # Complex numbers. For example: 1 + 2j, -3 - 4j.
