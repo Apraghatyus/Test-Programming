@@ -5,8 +5,12 @@
 
 print("Hello, Python!")
 
-# After that, we'll learn abput the different data types in python. The most common data types are:
+# Now we will learn how to declare variables in python. In python, we don't need to specify the type of the variable, we can just assign a value to it and python will infer the type. For example:
+nombre = "Apraghatyus" # This is a string variable
+pi = 3.14 # This is a float variable
+age = 25 # This is an integer variable
 
+# After that, we'll learn abput the different data types in python. The most common data types are:
 enteros: int = 10 # Whole numbers, both positive and negative. For example: 1, -5, 0.
 flotantes: float = 3.14 # Decimals numbers. For example: 3.14, -0.001, 2.0.
 texto: str = "Apraghatyus" # Strings. For example: "Hello", 'Python', "123".

@@ -6,8 +6,13 @@
 
 console.log("Hello, Typescript!");
 
-//Now We leanr how the different type of variables that we can use in typescript, we have 5 main types of variables in typescript, they are:
+//we can use the var, let or const keywords to declare a variable in typescript, but the most common way is to use let and const, var is not recommended to use because it has some issues with scope and hoisting.
+let nombre: string = "Apraghatyus"; // we can specify the type of the variable by using a colon (:) followed by the type, in this case we are specifying that the variable name is of type string
+const pi: number = 3.14; // we can also use const to declare a variable that cannot be reassigned, in this case we are declaring a constant variable pi of type number
+var age: number = 25; // we can also use var to declare a variable, but it is not recommended to use because it has some issues with scope and hoisting
 
+
+//Now We leanr how the different type of variables that we can use in typescript, we have 5 main types of variables in typescript, they are:
 let enteros: number = 10; // whole numbers
 let decimales: number = 3.14; // decimal numbers (not different from enteros in typescript)
 let texto: string = "Apraghatyus"; // text
@@ -16,6 +21,7 @@ let nulo: null = null; // null value
 let array: number[] = [1, 2, 3, 4, 5]; // array of numbers
 let tupla: [string, number] = ["Apraghatyus", 10]; // tuple, an array with fixed number of elements and types
 let any: any = "This can be any type"; // any type, can be assigned any value
+let voidType: void = undefined; // void type, represents the absence of a value, typically used for functions that do not return anything
 
 // we can found more varibles in typescript some of them are:
 let indefinido: undefined = undefined; // undefined value
