@@ -1,8 +1,9 @@
-FROM node:20-bullseye
+FROM node:20-bookworm
 
 WORKDIR /app
 
-# Instala Python 3 y pip
+# Instala Python 3.11 y pip
+# Bookworm (Debian 12) trae Python 3.11 en sus repositorios nativos
 RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \

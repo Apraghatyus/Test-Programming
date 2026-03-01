@@ -22,3 +22,6 @@ rad.json
 TestResults.xml
 ### Node ###
 node_modules/
+### dependecias to ts ###
+package-lock.json
+package.json
